@@ -12,13 +12,13 @@ light_blue_color = '\033[2;36m'
 light_green_color = '\033[1;32m'
 light_yellow_color = '\033[1;33m'
 
-ascii_art = pyfiglet.figlet_format(" Free Net")
+ascii_art = pyfiglet.figlet_format(" El Jo Net")
 j = pyfiglet.figlet_format(" Spam")
 print(green_color + ascii_art)
 print(j)
 import webbrowser
 #webbrowser.open('https://t.me/medofreeNet')
-print(light_blue_color + "by code: Melad Roman Free Net")
+print(light_blue_color + "by code: El Jo ")
 print(blue_color + "By code: Yousef Jo")
 print("")
 nu = input(green_color + "Enter a number : " + light_blue_color)

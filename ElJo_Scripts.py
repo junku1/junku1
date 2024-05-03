@@ -38,6 +38,7 @@ Etislat = 'https://raw.githubusercontent.com/junku1/junku1/main/%D8%B3%D8%A7%D8%
 id = 'https://raw.githubusercontent.com/junku1/junku1/main/%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA.py'
 Followers = 'https://raw.githubusercontent.com/junku1/junku1/main/%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D9%8A%D9%86.py'
 Spotify = 'https://raw.githubusercontent.com/junku1/junku1/main/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83spoyifay.py'
+Watchit="https://raw.githubusercontent.com/junku1/junku1/main/Watchit%20Subscription.py"
 def main():
     clear_screen()
     ascii_art = pyfiglet.figlet_format('El Jo Net')
@@ -56,6 +57,7 @@ def main():
 [8] National ID information 
 [9] 125 insta followers for free 
 [10] Spotify Orange subscription 
+[11] Free Watchit subscription to Orange 
 """)
     number = int(input(Y+"Choose the script: "))
     clear_screen()  # مسح الشاشة بعد اختيار المستخدم لرقم
@@ -79,8 +81,10 @@ def main():
         jo = Followers
     elif number == 10:
         jo = Spotify
+    elif number == 11:
+        jo = Watchit
     else:
-        print("Wrong choice")
+        print("Wrong choice❌❌")
         return 
 
     try:

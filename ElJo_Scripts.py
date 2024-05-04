@@ -4,8 +4,12 @@ import requests
 import random
 import pyfiglet
 import string
+import hashlib
 from getuseragent import UserAgent
 import webbrowser
+asa = '123456789'
+gigk = str(''.join(random.choice(asa) for i in range(10)))
+joo = hashlib.md5(gigk.encode()).hexdigest()[:16]
 webbrowser.open('https://t.me/ElJoNet208')
 Z = '\033[1;31m'  # احمر
 X = '\033[1;33m'  # اصفر
@@ -35,7 +39,7 @@ like = 'https://raw.githubusercontent.com/junku1/junku1/main/%D9%84%D9%8A%D9%83%
 views = 'https://raw.githubusercontent.com/junku1/junku1/main/views%20TiK%20Tok.py'
 dvoda = 'https://raw.githubusercontent.com/junku1/junku1/main/data%20nu%20voda%20(jo).py'
 Etislat = 'https://raw.githubusercontent.com/junku1/junku1/main/%D8%B3%D8%A7%D8%B9%D8%AA%D9%8A%D9%86%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA.py'
-id = 'https://raw.githubusercontent.com/junku1/junku1/main/%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA.py'
+call ='https://raw.githubusercontent.com/junku1/junku1/main/spamcall.py'
 Followers = 'https://raw.githubusercontent.com/junku1/junku1/main/%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D9%8A%D9%86.py'
 Spotify = 'https://raw.githubusercontent.com/junku1/junku1/main/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83spoyifay.py'
 Watchit="https://raw.githubusercontent.com/junku1/junku1/main/Watchit%20Subscription.py"
@@ -54,7 +58,7 @@ def main():
 [5] Free TikTok views 
 [6] Vodafone number data 
 [7] Two hours of free social Etislat
-[8] National ID information 
+[8] 3 spam calls 
 [9] 125 insta followers for free 
 [10] Spotify Orange subscription 
 [11] Free Watchit subscription to Orange 
@@ -76,7 +80,7 @@ def main():
     elif number == 7:
         jo = Etislat
     elif number == 8:
-        jo = id
+        jo = call
     elif number == 9:
         jo = Followers
     elif number == 10:
